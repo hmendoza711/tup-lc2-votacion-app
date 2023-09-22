@@ -26,13 +26,33 @@
       <!--Barra de menú principal-->
       <nav class="navbar">
         <ul class="nav-links">
-          <li class="nav-item"><a href="informes.html">INFORMES</a></li>
-          <li class="nav-item"><a href="index.html">INICIO</a></li>
-          <li class="nav-item"><a href="#inicio">Año</a></li>
-          <li class="nav-item"><a href="#inicio">Cargo</a></li>
-          <li class="nav-item"><a href="#inicio">Distrito</a></li>
-          <li class="nav-item"><a href="#inicio">Filtrar</a></li>
-          <!-- <li><a href="#contact">Contacto</a></li> -->
+          <li class="nav-item-año">
+            <select id="select-ano">
+              <option value="2022">Año</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+            </select>
+          </li>
+          <li class="nav-item-cargo">
+              <select id="select-cargo">
+              <option value="senadores">Cargo</option>
+              <option value="diputados">Diputados</option>
+              <option value="presidente">Senadores</option>
+              <option value="intendente">Intendente</option>
+            </select>
+          </li>
+          <li class="nav-item-distrito">
+            <select id="select-distrito">
+              <option value="rosario">Distrito</option>
+              <option value="san-lorenzo">San Lorenzo</option>
+              <option value="san-javier">Rosario</option>
+              <option value="san-javier">San Javier</option>
+            </select>
+          </li>
+          <li class="nav-item-filtrar"><a href="#">Filtrar</a></li>
+          <li class="nav-item-generales"><a href="index.html">GENERALES</a></li>
+          <li class="nav-item-informes"><a href="informes.html">INFORMES</a></li>
+            <li class="nav-item-inicio"><a href="index.html">INICIO</a></li>
         </ul>
       </nav>
     </header>
@@ -118,13 +138,13 @@
         <img src="/img/icons/Ministerio-del-Interior.png" alt="Logo Ministerio Interior" class="logo-dine" />
         <img src="/img/icons/dine.png" alt="Logo Dine" class="logo-dine"/>
         <img src="/img/icons/Observatorio-Politico-Electoral.png" alt="Logo Observatorio Politico Electoral" class="logo-dine" />
+        <p>“Resultados Provisorios en base a telegramas recibidos (Art. 43 Ley 26571 y Art. 105 Ley 19945). Los
+          porcentajes de las agrupaciones políticas son calculados sobre los votos válidos (PASO) conforme al art.
+          45 Ley 26.571 y afirmativos (Generales). No se incluyen los votos correspondientes a los electores
+          residentes en el exterior ni privados de la libertad. Al usar este sitio usted acepta los 
+          <a href="/js/pages/hojaBlanco.html" target="_blank">Términos y Condiciones</a>.
+        </p>
     </div>
-    <p>“Resultados Provisorios en base a telegramas recibidos (Art. 43 Ley 26571 y Art. 105 Ley 19945). Los
-      porcentajes de las agrupaciones políticas son calculados sobre los votos válidos (PASO) conforme al art.
-      45 Ley 26.571 y afirmativos (Generales). No se incluyen los votos correspondientes a los electores
-      residentes en el exterior ni privados de la libertad. Al usar este sitio usted acepta los 
-      <a href="/js/pages/hojaBlanco.html" target="_blank">Términos y Condiciones</a>.
-    </p>
     </footer>
   </body>
 </html>

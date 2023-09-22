@@ -26,7 +26,10 @@
       <!--Barra de menú principal-->
       <nav class="navbar">
         <ul class="nav-links">
-          <li class="nav-item"><a href="informes.html">INFORMES</a></li>
+          <span class="span-consultar">Consultar: </span>
+          <li class="nav-item-paso"><a href="paso.html">PASO</a></li>
+          <li class="nav-item-generales"><a href="generales.html">GENERALES</a></li>
+          <li class="nav-item-informes"><a href="informes.html">INFORMES</a></li>
           <!-- <li><a href="#contact">Contacto</a></li> -->
         </ul>
       </nav>
@@ -35,46 +38,41 @@
     <main>
       <section id="sec-titulo">
         <!--Seccion para agregar una palicula favorita por codigo-->
-        <h1>Resuldatos Electorales</h1>
-        <p>
-          La Dirección Nacional Electoral y el Observatorio Político Electoral
-          del Ministerio del Interior ponen a disposición una herramienta de
-          búsqueda avanzada y generación de informes personalizados con los
-          resultados provisionales de las elecciones desarrolladas en los
-          últimos años. Los resultados que se presentan son los correspondientes
-          a escrutinios provisorios de elecciones nacionales. Dicho recuento es
-          responsabilidad de la DINE. También se presentan los resultados
-          provisionales de las elecciones provinciales y/o locales realizados
-          bajo la adhesión a ley de simultaneidad
-        </p>
         <div>
+          <h1>Resultados Electorales</h1>
+          <p>
+            La Dirección Nacional Electoral y el Observatorio Político Electoral
+            del Ministerio del Interior ponen a disposición una herramienta de
+            búsqueda avanzada y generación de informes personalizados con los
+            resultados provisionales de las elecciones desarrolladas en los
+            últimos años.</p>
+            <br>
+            Los resultados que se presentan son los correspondientes
+            a escrutinios provisorios de elecciones nacionales. Dicho recuento es
+            responsabilidad de la DINE. También se presentan los resultados
+            provisionales de las elecciones provinciales y/o locales realizados
+            bajo la adhesión a ley de simultaneidad
+          </br>
+        </div>  
+        <div class ="Imagen-Data">
           <img
             src="/img/dataImg.PNG"
             alt="Imagen Principal"
-            width="300"
-            height="200"
+            width="350"
+            height="400"
           />
-        </div>
-      </section>
-
-      <section id="sec-messages">
-        <!-- Mensajes -->
-        <div class="error-message">
-          <p>¡Error! No se pudo completar la operación.</p>
-        </div>
-        <div class="success-message">
-          <p>¡Éxito! La operación se completó correctamente.</p>
         </div>
       </section>
 
       <section id="sec-contenido">
         <!--Seccion para contenido de la página-->
-        <h1>Elecciones 2023</h1>
-        <h6>Resultados provisorios</h6>
+        <div>
+          <h2>Elecciones 2023</h3>
+          <p>Seleccione el tipo de elección que quiere consultar</p>
+        </div>
         <div class="botones-acceso">
           <a href="paso.html" class="boton-paso">PASO</a>
           <a href="generales.html" class="boton-general">GENERALES</a>
-          <img src="/img/icons/iconoIndex.svg" alt="?" />
         </div>
       </section>
     </main>
@@ -92,7 +90,6 @@
               <a href="/js/pages/hojaBlanco.html" target="_blank">Términos y Condiciones</a>.
             </p>
         </div>
-        
     </footer>
   </body>
 </html>

@@ -1,44 +1,130 @@
-.header-page {
-    display: flex;
-    align-items: center;
-    background-position: center center;
-    background-color: #18a0fb;
-    height: 70px;
-    border: 0;
+.nav-item-filtrar {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80px;
   }
   
-  .logo {
-    width: 180px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    margin-left: 40px;
+  .nav-item-filtrar a {
+    text-decoration: none;
+    color: #333;
+    background-image: url('/img/icons/Loupe-Background-PNG.png');
+    background-repeat: no-repeat;
+    background-size: 12px 12px; 
+    background-position: left center; 
+    padding-left: 20px; 
   }
-  nav {
-    width: 100%;
-    height: 50px;
-    background-color: rgb(44, 44, 44);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: -10px;
+
+  .nav-item-inicio {
+    background-color: #9e9e9e;
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFF;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
   }
-  .nav-links {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
+  
+  .nav-item-inicio a {
+    color: #333;
   }
-  .nav-item {
-    margin-left: 1250px;
+  
+  .nav-item-inicio a:hover {
+    color: #333;
   }
-  .nav-item a {
+
+  .nav-item-año select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    color: #37bbed;
+    font-weight: bold;
+  }
+
+  .nav-item-cargo select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    color: #37bbed;
+    font-weight: bold;
+  }
+
+  .nav-item-distrito select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    color: #37bbed;
+    font-weight: bold;
+  }
+
+  .nav-item-generales {
     display: inline-block;
-    padding: 5px 8px;
+    padding: 5px;
     text-decoration: none;
     color: #fff;
-    border: 1px solid #fff;
-    border-radius: 10px;
+    margin-right: 10px;
+    border: 1px solid #37bbed;
+    border-radius: 5px;
+    background-color: #37bbed;
+    width: 100px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-item-generales:hover {
+    background-color: rgb(128, 128, 128, 0.5);
+  }
+  .nav-item-generales a {
+    display: block;
+    padding: 0px 5px;
+    text-decoration: none;
+    color: #fff;
     font-family: "Arial", sans-serif;
     font-size: 15px;
+    text-align: center;
   }
+
+  .nav-item-informes {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: #333;
+    width: 100px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-item-informes:hover {
+    background-color: rgb(128, 128, 128, 0.5);
+  }
+  .nav-item-informes a {
+    display: block;
+    padding: 0px 8px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
+  
   
