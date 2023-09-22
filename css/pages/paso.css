@@ -1,0 +1,52 @@
+.mensaje-amarillo {
+    background-color: #ffc107;
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+    background-image: url('/img/icons/exclamation-.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px; 
+    background-position: 20px center; 
+    padding-right: 10px;
+  }
+  
+  
+  .mensaje-rojo {
+    background-color: #dc3545;
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+    background-image: url('/img/icons/caution.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px; 
+    background-position: 20px center; 
+    padding-right: 10px;
+  }
+  
+  
+  .mensaje-verde {
+    background-color: #28a745;
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+    background-image: url('/img/icons/okhand.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px; 
+    background-position: 20px center; 
+    padding-right: 10px; 
+  }

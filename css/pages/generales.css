@@ -187,7 +187,11 @@
   }
   
   #sec-contenido div {
-    margin-left: 200px;
+    margin-left: 50px;
+  }
+  
+  #sec-messages {
+    text-align: center;
   }
 
   .texto-path p {
@@ -195,4 +199,120 @@
     font-family: 'Roboto', sans-serif;
     color: #37bbed;
 }
+
+.boton-agregar-informe {
+    background-color: #9e9e9e;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease; 
+  }
+  
+  .boton-agregar-informe:hover {
+    color: var#333; 
+  }
+
+  
+  
+  .mensaje-escrutadas {
+    background-color: #37bbed;
+    border-radius: 10px;
+    margin: 15px 1px; 
+    width: 184px;
+    height: 70px;
+    padding: 0.5rem 1rem;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .electores {
+    background-color: #ee3d8f;
+    border-radius: 10px;
+    margin: 15px 1px;
+    width: 184px;
+    height: 70px;
+    padding: 0.5rem 1rem;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .participacion-escrutado {
+    background-color: #9283be;
+    border-radius: 10px;
+    margin: 15px 5px; 
+    width: 184px;
+    height: 70px;
+    padding: 0.5rem 1rem;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .recuadro-agrupaciones {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 15px 1px; 
+    width: 400px;
+    height: 400px;
+    padding: 0.5rem 1rem;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .recuadro-provincias {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 15px 1px; 
+    width: 300px;
+    height: 400px;
+    padding: 0.5rem 1rem;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .recuadro-resumen-votos {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 15px 1px; 
+    width: 300px;
+    height: 400px;
+    padding: 0.5rem 1rem;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
   
