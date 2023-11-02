@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Publicación de Resultados Electorales</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/img/icons/favicon-16x16.png"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/pages/informes.css" />
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/pages/common.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/pages/style.css">
+  </head>
+  <body>
+    <header>
+      <!--Barra de logo portal-->
+      <div class="header-page">
+        <a href="index.html">
+          <img src="/img/icons/dine.png" alt="Logo Dine" class="logo-dine" />
+        </a>
+      </div>
+      <!--Barra de menú principal-->
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li class="nav-item"><a href="paso.html">PASO</a></li>
+          <li class="nav-item"><a href="generales.html">GENERALES</a></li>
+          <li class="nav-item"><a href="index.html">INICIO</a></li>
+          <li class="nav-item"><a href="#inicio">Año</a></li>
+          <!-- <li><a href="#contact">Contacto</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <!-- Contenido principal de la página -->
+    <main>
+      <section id="sec-titulo">
+        <!--Seccion para agregar una palicula favorita por codigo-->
+        <h2>Elecciones 2023 | Paso</h2>
+        <p>Párrafo o subtítulo</p>
+        <div>
+          <img src="" alt="Descripción de la imagen" width="300" height="200" />
+        </div>
+      </section>
+
+      <section id="sec-messages">
+        <!-- Mensajes -->
+        <div class="mensaje-verde">
+          <i class="#"></i> Se agrego con éxito el resultado del informe.
+        </div>
+        
+        <div class="mensaje-rojo">
+          <i class="#"></i> Error: Se produjo un error al intentar agregar resultados al informe.
+        </div>
+
+        <div class="mensaje-amarillo">
+          <i class="#"></i> La operacion no se pudo completar.
+        </div>
+      </section>
+
+      <section id="sec-contenido">
+        <!--Seccion para contenido de la página-->
+        <div class="cuadro">
+          <!-- Cuadro de resultados -->
+          <h3>Reporte de Elecciones</h3>
+          <div class="grilla">
+            <table>
+              <thead>
+                <tr>
+                  <th>PROVINCIA</th>
+                  <th>ELECCIÓN</th>
+                  <th>DATOS GENERALES</th>
+                  <th>DATOS POR AGRUPACIÓN</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Aquí se agregarán filas para cada resultado -->
+                <tr>
+                  <td><img src="imagen_provincia.jpg" alt="Provincia" /></td>
+                  <td>
+                    <p>Título de la Elección</p>
+                    <p>Año: 2023</p>
+                    <p>Tipo: General</p>
+                    <p>Provincia: Nombre de la Provincia</p>
+                    <p>Cargo: Cargo Seleccionado</p>
+                  </td>
+                  <td>
+                    <p>Mesas Computadas: 100</p>
+                    <p>Electores: 1000</p>
+                    <p>Participación sobre Escrutado: 80%</p>
+                  </td>
+                  <td>
+                    <!-- Aquí se pueden listar las agrupaciones y sus resultados -->
+                    <ul>
+                      <li>Agrupación 1 - 30% (300 votos)</li>
+                      <li>Agrupación 2 - 25% (250 votos)</li>
+                      <!-- Agregar más agrupaciones según sea necesario -->
+                    </ul>
+                  </td>
+                </tr>
+                <!-- Agregar más filas para cada resultado -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Pie de página-->
+    <footer>
+      <div class="footer-page">
+        <img src="/img/icons/Ministerio-del-Interior.png" alt="Logo Ministerio Interior" class="logo-dine" />
+        <img src="/img/icons/dine.png" alt="Logo Dine" class="logo-dine"/>
+        <img src="/img/icons/Observatorio-Politico-Electoral.png" alt="Logo Observatorio Politico Electoral" class="logo-dine" />
+        <p>“Resultados Provisorios en base a telegramas recibidos (Art. 43 Ley 26571 y Art. 105 Ley 19945). Los
+          porcentajes de las agrupaciones políticas son calculados sobre los votos válidos (PASO) conforme al art.
+          45 Ley 26.571 y afirmativos (Generales). No se incluyen los votos correspondientes a los electores
+          residentes en el exterior ni privados de la libertad. Al usar este sitio usted acepta los 
+          <a href="/js/pages/hojaBlanco.html" target="_blank">Términos y Condiciones</a>.
+        </p>
+    </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Publicación de Resultados Electorales</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/img/icons/favicon-16x16.png"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/pages/generales.css" />
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/pages/common.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/pages/style.css">
+  </head>
+  <body>
+    <header>
+      <!--Barra de logo portal-->
+      <div class="header-page">
+        <a href="index.html">
+          <img src="/img/icons/dine.png" alt="Logo Dine" class="logo-dine" />
+        </a>
+      </div>
+      <!--Barra de menú principal-->
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li class="nav-item-año">
+            <select id="select-ano">
+              <option value="2022">Año</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+            </select>
+          </li>
+          <li class="nav-item-cargo">
+              <select id="select-cargo">
+              <option value="senadores">Cargo</option>
+              <option value="diputados">Diputados</option>
+              <option value="presidente">Senadores</option>
+              <option value="intendente">Intendente</option>
+            </select>
+          </li>
+          <li class="nav-item-distrito">
+            <select id="select-distrito">
+              <option value="rosario">Distrito</option>
+              <option value="san-lorenzo">San Lorenzo</option>
+              <option value="san-javier">Rosario</option>
+              <option value="san-javier">San Javier</option>
+            </select>
+          </li>
+          <li class="nav-item-filtrar"><a href="#">Filtrar</a></li>
+          <li class="nav-item-generales"><a href="index.html">GENERALES</a></li>
+          <li class="nav-item-informes"><a href="informes.html">INFORMES</a></li>
+            <li class="nav-item-inicio"><a href="index.html">INICIO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Contenido principal de la página -->
+    <main>
+      
+      <section id="sec-messages">
+        <!-- Mensajes -->
+        <div class="mensaje-verde">
+          <i class="#"></i> Se agrego con éxito el resultado del informe.
+        </div>
+        
+        <div class="mensaje-rojo">
+          <i class="#"></i> Error: Se produjo un error al intentar agregar resultados al informe.
+        </div>
+
+        <div class="mensaje-amarillo">
+          <i class="#"></i> La operacion no se pudo completar.
+        </div>
+      </section>
+
+      <section id="sec-titulo">
+        <!--Seccion para agregar una palicula favorita por codigo-->
+        <div>
+          <h1>Elecciones 2021 | Paso</h1>
+          <p class="texto-path">2020 > Generales > Provisorio > Senadores Nacionales > Buenos Aires</p>
+        </div>
+      </section>
+
+      <section id="sec-contenido">
+        <!--Seccion para contenido de la página-->
+        <div class="boton-informes">
+          <a href="informes.html" class="boton-agregar-informe">AGREGAR A INFORME</a>
+        </div>
+
+        <div class="mensaje-escrutadas">
+          <i class="#"></i> Mesas Escrutadas.
+        </div>
+        
+        <div class="electores">
+          <i class="#"></i> Electores.
+        </div>
+
+        <div class="participacion-escrutado">
+          <i class="#"></i> Participacion sobre escrutado.
+        </div>
+        
+        <div class="cuadro">
+          <div class="recuadro-agrupaciones">
+            <h2>Agrupaciones Politicas</h2>
+            <p>Contenido del Recuadro 1...</p>
+          </div>
+        
+          <div class="recuadro-provincias">
+            <h2>Provincias</h2>
+            <p>Contenido del Recuadro 2...</p>
+          </div>
+        
+          <div class="recuadro-resumen-votos">
+            <h2>Resumen Votos</h2>
+            <p>Contenido del Recuadro 3...</p>
+          </div>   
+            </div>
+          <div class="cuadro">
+            <!-- Cuadro de mapa -->
+            <h3>Cuadro de Mapa</h3>
+            <div class="mapa">
+              <!-- SVG del mapa -->
+              <svg width="300" height="200">
+                <!-- Tu codigo SVG  -->
+              </svg>
+            </div>
+          </div>
+          <div class="barra-porcentaje">
+            <!-- Aquí puedes agregar una barra de porcentaje con CSS -->
+            <div class="barra" style="width: 30%;"></div>
+          </div>
+          <div class="chart-wrap horizontal">
+            <div class="title">Título de la grafica</div>
+            <div class="grid">
+            <div class="bar" style="--bar-value:85%;" data-name="Partido 1" title="Your Blog
+            85%"></div>
+            <div class="bar" style="--bar-value:23%;" data-name="Partido 2" title="Medium
+            23%"></div>
+            <div class="bar" style="--bar-value:7%;" data-name="Partido 3" title="Tumblr
+            7%"></div>
+            <div class="bar" style="--bar-value:38%;" data-name="Partido 4" title="Facebook
+            38%"></div>
+            <div class="bar" style="--bar-value:35%;" data-name="Partido 5" title="YouTube
+            35%"></div>
+            <div class="bar" style="--bar-value:30%;" data-name="Partido 6" title="LinkedIn
+            30%"></div>
+            <div class="bar" style="--bar-value:5%;" data-name="Partido 7" title="Twitter
+            5%"></div>
+            <div class="bar" style="--bar-value:20%;" data-name="Otros" title="Other
+            20%"></div>
+            </div>
+            </div>
+        </section>
+        </div>
+      </section>
+    </main>
+    <!--Pie de página-->
+    <footer>
+      <div class="footer-page">
+        <img src="/img/icons/Ministerio-del-Interior.png" alt="Logo Ministerio Interior" class="logo-dine" />
+        <img src="/img/icons/dine.png" alt="Logo Dine" class="logo-dine"/>
+        <img src="/img/icons/Observatorio-Politico-Electoral.png" alt="Logo Observatorio Politico Electoral" class="logo-dine" />
+        <p>“Resultados Provisorios en base a telegramas recibidos (Art. 43 Ley 26571 y Art. 105 Ley 19945). Los
+          porcentajes de las agrupaciones políticas son calculados sobre los votos válidos (PASO) conforme al art.
+          45 Ley 26.571 y afirmativos (Generales). No se incluyen los votos correspondientes a los electores
+          residentes en el exterior ni privados de la libertad. Al usar este sitio usted acepta los 
+          <a href="/js/pages/hojaBlanco.html" target="_blank">Términos y Condiciones</a>.
+        </p>
+    </div>
+    </footer>
+  </body>
+</html>

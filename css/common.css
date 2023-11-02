@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+}
+
+.main p {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  color: #333;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  color: #333;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+.header-page {
+  padding: 0.5em;
+  background-color: #18a0fb;
+  color: white;
+  width: 100%; /* Puse 100% xq no coincide con el ancho del nav */
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+
+.logo-dine {
+  width: 180px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+nav {
+  margin-left: auto; /* Puse auto xq no coincide con el margin del header*/
+  margin-right: auto; /* Puse auto xq no coincide con el margin del header*/
+  padding-top: 25px;
+  background-color: #333;
+  width: 100%;
+  height: 25px;
+}
+
+.nav-links {
+  display: inline-block;
+  margin-left: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -19px;
+  align-items: center;
+}
+
+
+.footer-page {
+  display: flex;
+  align-items: center;
+  background-position: center center;
+  background-color: #333;
+  height: 100px;
+  border: 0;
+  color: #9e9e9e;
+  font-size: 14px;
+}
