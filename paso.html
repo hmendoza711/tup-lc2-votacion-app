@@ -21,21 +21,65 @@
             ><img src="/img/icons/dine.png" alt="logo dine" class="logo-dine" /></a>
         </div>
       <!--Barra de menú principal-->
-      <div>
-        <div><a class="informes" href="/informes.html">Informes</a></div>
-        <div><a href="#contact">Contacto</a></div>
-      </div>
+        <div class="menuPpal"> 
+          <div>
+            <label for="filtro-ano">Año:</label>
+            <select id="filtro-ano">
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>     
+            </select>
+          </div>
+          <div>
+            <label for="filtro-cargo" class="filtro-cargo">Cargo:</label>
+            <select id="filtro-cargo">
+                <option value="director">Director</option>
+                <option value="gerente">Gerente</option>           
+            </select>
+          </div>
+          <div>
+            <label for="filtro-distrito" class="filtro-distrito">Distrito:</label>
+            <select id="filtro-distrito">
+                <option value="distrito1">Distrito 1</option>
+                <option value="distrito2">Distrito 2</option>
+            </select>
+          </div>
+          <div><button class="btn-filtrar">🔍 Filtrar</button></div>
+          <div><a class="informes" href="/informes.html">Informes</a></div>
+          <div><a class="inicio" href="/index.html">INICIO</a></div>
+        </div>
     </header>
     <!-- Contenido principal de la página -->
     <main>
       <section id="sec-titulo">
         <!--Seccion para agregar una palicula favorita por codigo-->
-        <h2>Titulo de Sección</h2>
-        <p>Párrafo o subtítulo</p>
+        <div><h2>Titulo de Sección</h2></div>
+        <div><p>Párrafo o subtítulo</p></div>
         <div>Imagen</div>
+      </section>
+      <section id="sec-messages">
+        <!--Seccion para contenido de la página-->
+        <div><a class="#" href="#">Se agrego con éxito el resultado del informe.</a></div>
+        <div><a class="#" href="#">Error ! Se produjo un error al intentar agregar resultados al informe.</a></div>
+        <div><a class="#" href="#">La opreacion no se pude completar</a></div> 
       </section>
       <section id="sec-contenido">
         <!--Seccion para contenido de la página-->
+        <div><button class="btn-agregarInforme">AGREGAR INFORME</button></div>
+        <div>
+          <button class="boton-mesasEscrutadas">
+            MESAS ESCRUTADAS
+          </button>
+        </div>
+        <div>
+          <button class="boton-electores">
+            ELECTORES
+          </button>
+        </div>
+        <div>
+          <button class="boton-partSobreEscrutado">
+            PARTICIPACION SOBRE ESCRUTADO
+          </button>
+        </div>
       </section>
     </main>
     <!--Pie de página-->
